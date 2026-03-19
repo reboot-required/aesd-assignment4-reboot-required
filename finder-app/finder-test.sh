@@ -1,12 +1,13 @@
 #!/bin/sh
 # Tester script for assignment 1 and assignment 2
 # Author: Siddhant Jajoo
+# Modified: reboot-required for assignment 3
 
 set -e
 set -u
 
-make clean
-make
+#make clean
+#make
 
 NUMFILES=10
 WRITESTR=AELD_IS_FUN
